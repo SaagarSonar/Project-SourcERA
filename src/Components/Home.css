@@ -1,0 +1,77 @@
+
+.training-partners{
+    font-size: 40px;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.body-container{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tp-item{
+    width: 200px;
+    padding: 0;
+    
+}
+
+.columnhome {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+  .rowhome{margin: 0 -5px;}
+  
+  .rowhome:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .columnhome {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .cardhome {
+    box-shadow: 0 4px 8px 0 #212529;
+   
+    text-align: center;
+    background-color: #212529;
+    border-radius: 6px;
+  }
+ 
+  .cardhome p{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .featured-courses{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+ 
+  .featured-courses div{
+    background-color: #f1f1f1;
+    
+  }
+
+  .featured-courses li{
+    margin-left: 30px;
+    list-style-type: square;
+    
+  }
+ 

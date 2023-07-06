@@ -1,0 +1,24 @@
+.link{
+    color: #FFFFFF8C;
+}
+.link2{
+    color: #FFFFFF8C;
+}
+
+.link:hover{
+    color: #212519;
+}
+.link2:hover{
+    color: #212519;
+    border-radius: 3px;
+    background-color: #FFFFFF8C;
+}
+
+.linkitem{
+    background-color: #212519;
+    
+}
+
+.linkitem:hover{
+    color: #FFFFFF8C;
+}
